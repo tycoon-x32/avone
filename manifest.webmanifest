@@ -1,0 +1,25 @@
+{
+  "name": "AvyOne Aviation Ecosystem",
+  "short_name": "AvyOne",
+  "description": "One app for flights, hotels, private jet travel, cargo, transfers, lounges, insurance, and AI-powered trip planning.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#071a2b",
+  "theme_color": "#0d223b",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "./icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "./avyone%20logo1.jpg",
+      "sizes": "1275x1233",
+      "type": "image/jpeg",
+      "purpose": "any"
+    }
+  ]
+}

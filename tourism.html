@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0d223b" />
+    <title>AvyOne Tourism | Kenya & East Africa</title>
+    <meta name="description" content="Plan Kenya and East Africa trips with regional flights and SafariLink." />
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <link rel="icon" href="./avyone%20logo1.jpg" type="image/jpeg" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="container nav">
+        <a class="brand" href="./index.html"><img class="brand-logo" src="./avyone%20logo1.jpg" alt="AvyOne logo" /><span>AvyOne</span></a>
+        <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+        <nav class="nav-links" aria-label="Main navigation">
+          <a href="./index.html">Home</a>
+          <a href="./flights.html">Flights</a>
+          <a href="./hotels.html">Hotels</a>
+          <a href="./private.html">Private</a>
+          <a href="./tourism.html" class="active">Tourism</a>
+          <a href="./cargo.html">Cargo</a>
+          <a href="./transfers.html">Transfers</a>
+          <a href="./lounge.html">Lounge</a>
+          <a href="./insurance.html">Insurance</a>
+          <a href="./ai.html">AI</a>
+        </nav>
+        <a class="nav-cta" href="https://flysafarilink.com/" target="_blank" rel="noopener noreferrer">Explore SafariLink</a>
+      </div>
+    </header>
+
+    <main class="container page-hero">
+      <section class="page-shell">
+        <div class="detail-card">
+          <img class="panel-art" src="https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&w=1200&q=80" alt="" />
+          <div class="kicker">Tourism · Kenya & East Africa</div>
+          <h1>Make more of the journey.</h1>
+          <p class="lead">Plan regional escapes from Nairobi to Kenya's coast, wildlife reserves, and East African destinations. Explore SafariLink routes and book directly with the airline.</p>
+          <ul class="meta-list">
+            <li><span>🦁</span> <div><b>Safari destinations</b> Find regional flights for a Kenya wildlife getaway</div></li>
+            <li><span>🏝</span> <div><b>Coast and islands</b> Connect with Kenya's coastal towns and East African beach escapes</div></li>
+            <li><span>✈</span> <div><b>Regional connections</b> Check routes, schedules, and availability with SafariLink</div></li>
+          </ul>
+        </div>
+
+        <div class="form-card">
+          <img class="panel-art" src="https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&w=1200&q=80" alt="" />
+          <form data-booking-form data-service="Tour planning request">
+            <div class="field-grid">
+              <label>Departing from<input name="from" type="text" value="Nairobi" /></label>
+              <label>Destination<input name="to" type="text" placeholder="e.g. Maasai Mara" /></label>
+              <label>Travel date<input name="date" type="date" /></label>
+              <label>Travelers<select name="travelers"><option>2 travelers</option><option>1 traveler</option><option>Family</option><option>Group</option></select></label>
+            </div>
+            <button class="btn btn-primary" type="submit">Prepare tour request</button>
+          </form>
+          <div class="booking-result result-box">
+            <h3>Explore regional trips</h3>
+            <p>Discover safari airstrips, coastal destinations, and regional connections from Nairobi.</p>
+            <p>Schedules, destinations, and fares vary by season. Confirm current details directly with the airline.</p>
+            <p><a href="https://flysafarilink.com/" target="_blank" rel="noopener noreferrer">Visit SafariLink to explore and book</a></p>
+          </div>
+          <a class="btn btn-secondary provider-link" href="https://flysafarilink.com/" target="_blank" rel="noopener noreferrer">Continue to SafariLink</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer"><div class="container footer-inner"><div>© <span data-year></span> AvyOne</div><div>Tour Kenya and East Africa</div></div></footer>
+    <script src="./app.js"></script>
+  </body>
+</html>
